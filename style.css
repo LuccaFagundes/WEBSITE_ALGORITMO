@@ -1,0 +1,67 @@
+/*  Estilos gerais para a página bancaria :o) */
+body{
+    background-color: #73a56c; /* Cor do fundo da página */  
+    font-family: 'Courier New', Courier, monospace; /* Definir a fonte da página */
+    margin: 0; /* remove a margem padrão */
+    padding: 20px; /* Adiciona um espaço interno (padding) na página */
+}
+
+/* Estilos para o container principal */
+.container{
+    background-color: #6b7331; /* define a cor do fundo do container */
+    border-radius: 10px; /* cantos arrendondados */
+    padding: 10px; /* adicionar um espaço interno (padding) ao redor do conteúdo */
+    max-width: 400px; /* define a largura máxima do container */ 
+    margin: auto;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha); /* adiciona uma sombra bem de leve para destacar o container */
+
+}
+/* estinlos para o título */
+h1{
+    text-align: center; /* centraliza o título */
+    color: chocolate; /* cor para o título */
+
+}
+/* estilos para os inputs e botões */
+input{
+    width: 51%; /* faz o campo de entrada ocupar toda a largura disponível */
+    padding: 10px; /* espaço interno ao redor do texto no campo */
+    margin: 5px 0; /* adiciona um espaço de px acima e abaixo do campo */
+    border-radius: 5px; /* Arrendondar os cantos do campo */
+    border: 5px solid purple; /* borda do botão */
+}
+/* Estilos para os botões */
+
+.botao1{
+    width: 100%; /* Faz o botão ocupar toda a largura disponivel */
+    padding: 10px; /* Espaço interno ao redor do texto no botão */
+    margin: 3px 0;
+    background-color: blue; /* Cor do fundo do botão */
+    color: rgb(65, 186, 65); /* Cor do texto do botão */
+    border: 5px solid rgb(193, 4, 4); /* Remove a borda padrão */
+    cursor: crosshair; /* Muda o cursor para indicar que o botão é clicável */
+}
+.botao1:hover{
+    background-color: rgb(193, 4, 4) ;
+} /* muda a cor do fundo */
+
+.botao2{
+    width: 100%; /* Faz o botão ocupar toda a largura disponivel */
+    padding: 10px; /* Espaço interno ao redor do texto no botão */
+    margin: 3px 0;
+    background-color: rgb(193, 4, 4); /* Cor do fundo do botão */
+    color: rgb(65, 186, 65); /* Cor do texto do botão */
+    border: 5px solid blue; /* Remove a borda padrão */
+    cursor: crosshair; /* Muda o cursor para indicar que o botão é clicável */
+}
+.botao2:hover{
+    background-color: blue ;
+}
+.balance{
+    font-size: larger;
+    text-align: center;
+    color: aqua;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
