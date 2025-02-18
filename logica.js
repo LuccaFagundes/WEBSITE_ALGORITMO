@@ -49,7 +49,8 @@ function sacar(){
 }
 
 if (saldo = infinity) {
-    console.log("Tá sonegando imposto hein miseravi")
+    alert("Tá sonegando imposto hein miseravi")
+    saldo = 0
 }
 
 
