@@ -48,6 +48,9 @@ function sacar(){
     alert("Saque de R$ " + valor.toFixed(2) + "  realizado com sucesso")
 }
 
+if (saldo = infinity) {
+    console.log("Tá sonegando imposto hein miseravi")
+}
 
 
 
