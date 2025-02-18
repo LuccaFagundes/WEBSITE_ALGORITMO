@@ -47,9 +47,8 @@ function sacar(){
     atualizarSaldo()
     alert("Saque de R$ " + valor.toFixed(2) + "  realizado com sucesso")
 }
-
-if (balance = infinity) {
-    alert("Tá sonegando imposto hein miseravi")
+while (balance = infinity){
+    alert("Tá sonegando imposto miseravi")
     balance = 0
 }
 
